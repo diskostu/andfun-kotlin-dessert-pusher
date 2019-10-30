@@ -22,6 +22,8 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 import timber.log.Timber
 
+const val KEY_SECONDS_COUNT = "KEY_SECONDS_COUNT"
+
 /**
  * This is a class representing a timer that you can start or stop. The secondsCount outputs a count of
  * how many seconds since it started, every one second.
